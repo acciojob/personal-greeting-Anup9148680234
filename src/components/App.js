@@ -11,7 +11,7 @@ const App = () => {
     <div>
         <p>Enter your name: </p>
         <input onInput={textAdd} id="a"></input>
-        <p id="p">Hello {text}!</p>
+        <p id="p">Hello {this.text}!</p>
     </div>
   )
 }
