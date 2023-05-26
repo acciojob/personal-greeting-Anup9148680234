@@ -11,8 +11,8 @@ const App = () => {
   }
   return (
     <div>
-        <p>Enter your name: </p>
-        <input onInput={textAdd} id="a"></input>
+        <p>Enter your name:</p>
+        <input onChange={textAdd} id="a"></input>
         <p id="p">Hello {text}!</p>
     </div>
   )
